@@ -6,11 +6,11 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <title>Archives: 2019/12 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/archives/2019/12/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
@@ -152,105 +152,47 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-代码1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
     
-      <header class="article-header">
-        
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2019" class="archive-year">2019</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2019/12/01/代码1/" class="archive-article-date">
+  	<time datetime="2019-12-01T07:40:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-01</time>
+</a>
+        </div>
+    	 
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/12/01/代码1/">代码1</a>
+      <a class="archive-article-title" href="/2019/12/01/代码1/">代码1</a>
     </h1>
   
 
-        
-        <a href="/2019/12/01/代码1/" class="archive-article-date">
-  	<time datetime="2019-12-01T07:40:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>&lt;%@page import=”com.dzqc.bean.User”%&gt;<br>&lt;%@ page language=”java” contentType=”text/html; charset=UTF-8”<br>    pageEncoding=”UTF-8”%&gt;<br>&lt;%@ taglib prefix=”c” uri=”<a href="http://java.sun.com/jsp/jstl/core&quot;" target="_blank" rel="noopener">http://java.sun.com/jsp/jstl/core&quot;</a> %&gt;<br><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"></p>
-<html>
-<head><meta name="generator" content="Hexo 3.9.0">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-    <center>欢迎${user.unam}登录</center>
-    <c:if test="${not empty page.listRecords}">
-        <table border="1">
-          <tr>
-             <th>编号</th>
-             <th>姓名</th>
-             <th>性别</th>
-             <th>年纪</th>
-             <th>地址</th>
-             <th>qq</th>
-             <th>邮箱</th>
-          </tr>
-          <c:foreach items="${page.listRecords}" var="c" varstatus="s">
-             <tr>
-               <td>${c.id}</td>
-               <td>${c.name}</td>
-               <td>${c.gender}</td>
-               <td>${c.age}</td>
-               <td>${c.address}</td>
-               <td>${c.qq}</td>
-               <td>${c.email}</td>
-             </tr>
+        <div class="article-info info-on-right">
+          
+          
 
-<pre><code>      &lt;/c:forEach&gt;
-    &lt;/table&gt;
-&lt;/c:if&gt;
-&lt;%@ include file=&quot;commons/page.jsp&quot; %&gt;</code></pre></c:foreach></table></c:if></body>
-</html>
-
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/12/01/代码1/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
   
+    </div></section>
+  
+
+    
 
 
           </div>
@@ -272,9 +214,9 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
+		isHome: false,
 		isPost: false,
-		isArchive: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
